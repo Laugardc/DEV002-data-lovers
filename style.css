@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #6a2727;
+    text-align: center; 
+    background-repeat: no-repeat;  
+    background-size: cover;   
+         
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+header {
+    height: 1rem;
+}
+
+.home-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin: .8rem;
+}
+
+.home-icon-div {
+    width: 4rem;
+    height: 4rem;
+    text-align: right;
+}
+
+nav {
+    position: fixed;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #D4D9D8;
+  }
+nav img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+  }
+.title {
+    width: 41rem;
+    height: 13.5rem;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+h4 {
+    color: #D4D9D8;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 2rem;
+    padding: 1.2rem;
+}
+ .logos-escuelas {
+    width: 36%;
+    margin: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.subtitle {
+    width: 32rem;
+    height: 8.5rem;
+    padding: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 9% auto;
+    display: inline-block;
+}
+
+button[type=button] { 
+    font-family: 'Indie Flower';
+    color: #22184E;
+    font-size: 14px;
+    cursor:pointer;
+    width: 48%;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: rgb(212, 132, 82);
+    border-radius: 1.3rem;
+    margin: 3rem 2% 1rem
+ }
+
+ button[type=button]:hover {
+    background-color: rgb(33, 114, 124);
+    color: #ffffff;
+ }
+
+#cargarAPI:hover {
+    background-color: #133d4857;
+    color: #fafafa;
+    
+}
+
+.orderAZ {
+    width: 3rem;
+    cursor: pointer;
+    display: none;
+    margin: 2% 0 1% 50%;
+}
+
+#percentageBox {
+    margin: 1% 42% 1% 42%;
+    padding: .4%;
+    width: auto;
+    font-size: 1.5rem;
+    display: none; 
+    color: #D4D9D8;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 2px 15px 0 rgba(232, 175, 43, 0.915); 
+    border-radius: 15px; 
+
+}
+.cardsContainer {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    padding: 1rem;
+    place-content: center;
+    color: black;
+    font-size: .8rem;
+    margin: 5px;
+}
+
+.card {
+    background-color: #fffffe;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 #b3891fec;
+    transition: 0.3s;
+    border-radius: 25px; 
+    display:inline-table;
+    font-family: 'Indie Flower';
+    font-size: .9rem;
+
+  }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(215, 168, 30, 0.915);
+}
+
+.infoCard {
+    padding: 2px;
+}
+.hat-icon {
+    width: 6rem;
+    height: 7rem;
+}
+
